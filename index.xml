@@ -1,1 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Tech Blog on My Tech Blog</title><generator uri="https://gohugo.io">Hugo</generator><link>https://rtrigg.github.io/</link><language>en-us</language><updated>Sun, 17 Jul 2022 21:48:45 -0400</updated><item><title>My First Post</title><link>https://rtrigg.github.io/posts/my-first-post/</link><pubDate>Sun, 17 Jul 2022 21:48:45 -0400</pubDate><guid>https://rtrigg.github.io/posts/my-first-post/</guid><description>I wanted to create a tech blog, where I could make posts, and I figured why not on GitHub? After searching around, I decided on using Hugo for it, and started with this guide, and stumbled around on the internet to figure out the rest. This is less of a &amp;ldquo;howto&amp;rdquo; and more of a window into a &amp;ldquo;howdid;&amp;rdquo; there&amp;rsquo;s a ton of links at the end where you can find well-organized instructions.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tech Blog</title>
+    <link>https://rtrigg.github.io/</link>
+    <description>Recent content on Tech Blog</description>
+    <image>
+      <url>https://rtrigg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://rtrigg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Jul 2022 21:48:45 -0400</lastBuildDate><atom:link href="https://rtrigg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://rtrigg.github.io/posts/my-first-post/</link>
+      <pubDate>Sun, 17 Jul 2022 21:48:45 -0400</pubDate>
+      
+      <guid>https://rtrigg.github.io/posts/my-first-post/</guid>
+      <description>I wanted to create a tech blog, where I could make posts, and I figured why not on GitHub? After searching around, I decided on using Hugo for it, and started with this guide, and stumbled around on the internet to figure out the rest. This is less of a &amp;ldquo;howto&amp;rdquo; and more of a window into a &amp;ldquo;howdid;&amp;rdquo; there&amp;rsquo;s a ton of links at the end where you can find well-organized instructions.</description>
+    </item>
+    
+  </channel>
+</rss>
