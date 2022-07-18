@@ -116,4 +116,13 @@ In theory the github action should build the hugo page from the content in my
 main branch, and put that generated html, etc into the gh-pages branch, where
 it will get published, and I'll have a blog on github now!
 
+In practice, it looks like the generic github page:
+![Where is Hugo?!](/nohugo.png)
 
+Oh wait, github is using my `main` branch instead of the `gh-pages` branch
+(recall, the gh-pages branch was the one automagically created through the
+github action).
+
+![I'd prefer IaC for this, but oh well..](/default_branch.png)
+
+So now it will work, right?
