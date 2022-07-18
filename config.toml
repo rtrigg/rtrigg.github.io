@@ -4,7 +4,7 @@ publishdir = "public"
 baseURL = "https://rtrigg.github.io"
 canonifyurls = true
 title = "My Tech Blog"
-theme = "pixyll"
+theme = "hugo-theme-pixyll"
 
 [indexes]
   category = "categories"
