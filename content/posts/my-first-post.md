@@ -65,7 +65,7 @@ Just a few more steps and you're ready to go:
 Oh, but that makes a new config.toml, when I was using a config.yaml...
 
 ```
-> cat config.toml 
+> cat config.toml
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
@@ -75,7 +75,7 @@ Maybe I can set similar variables things from config.toml in my config.yaml
 things will work.
 
 ```
-> cat config.yaml 
+> cat config.yaml
 Params:
   baseURL: https://rtrigg.github.io
   languageCode: 'en-us'
@@ -98,7 +98,7 @@ time.
 
 ```
 hugo new posts/my-first-post.md
-cat content/posts/my-first-post.md 
+cat content/posts/my-first-post.md
 ---
 title: "My First Post"
 date: 2022-07-17T21:48:45-04:00
@@ -106,6 +106,14 @@ draft: true
 ---
 ```
 
-Sorta boring, gotta add the content I was already writing into it!
+Sorta boring, gotta add the content I was already writing into it! After that I can add it and...
+
+```
+git commit -m "Move howto to fist blog post"
+```
+
+In theory the github action should build the hugo page from the content in my
+main branch, and put that generated html, etc into the gh-pages branch, where
+it will get published, and I'll have a blog on github now!
 
 
