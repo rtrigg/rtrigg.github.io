@@ -25,7 +25,7 @@ git init
 git remote add origin git@github.com:rtrigg/rtrigg.github.io.git
 ```
 
-[Add a GitHub Action to publish the work](https://gohugo.io/hosting-and-deployment/hosting-on-github):
+Add a [GitHub Action to publish the work](https://gohugo.io/hosting-and-deployment/hosting-on-github):
 
 ```
 mkdir -p .github/workflows/
@@ -35,7 +35,9 @@ git commit -m "Add github action to build site"
 git push --set-upstream origin main
 ```
 
-Create a config.yaml ([or toml or json](https://gohugo.io/getting-started/configuration/)) containing the following:
+Create a config.yaml ([or toml or
+json](https://gohugo.io/getting-started/configuration/)) containing the
+following:
 
 ```
 Params:
@@ -100,7 +102,7 @@ git commit -m "Create hugo site, add theme, update howto"
 
 Alright, now to add a post... Good thing I've been working on one the whole
 time. I wonder how newlines are going to be handled. I've been wrapping at 80
-characters, I'm doing all of this in vim.
+characters, I'm doing all of this in vim.[^1]
 
 ```
 hugo new posts/my-first-post.md
@@ -123,8 +125,8 @@ In theory the github action should build the hugo page from the content in my
 main branch, and put that generated html, css, etc into the gh-pages branch,
 where it will get published, and I'll have a blog on github now!
 
-In practice, it looks like the generic github page, and I just see what was in
-the README.md, which is a link to the site.
+In practice, it looks like the generic github page, and I see what was in
+the README.md, which is just a link to the site.
 
 Oh wait, github is using my `main` branch instead of the `gh-pages` branch
 which was automagically created through the github action.
@@ -148,18 +150,19 @@ Params:
 
 Later: I ran into a lot of other troubles, and decided to switch to a newer
 theme. The Pixyll theme I had picked, except for the README, hadn't been
-updated in years. Searching for "hugo theme 2022" was the way to go, leading me
-to a [new theme](https://github.com/adityatelange/hugo-PaperMod). I had thinks
+updated in years.[^2] Searching for "hugo theme 2022" was the way to go, leading me
+to a [new theme](https://github.com/adityatelange/hugo-PaperMod). I had things
 working locally (by using `hugo server`, which I should have been using at
 first to see how things looked!). It turns out that I got mixed up and had
 conflated the "default branch" with the publishing branch, or [publishing
 source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 Once I got that sorted, everything was good to go! I think I jinxed myself by
-talking earlier about how this only took "an hour and a half," but I'm happy that everything seems to be working now, except for images, which I will revisit.
+talking earlier about how this only took "an hour and a half," but I'm happy
+that everything seems to be working now, except for images, which I will
+revisit.
 
-
-In no particular order, the websites I poked around at while trying to figure
-this out and troubleshoot:
+In no particular order, here's most of the websites I came across while trying
+to figure this out and troubleshoot:
 
 - <https://github.com/gohugoio/hugo>
 - <https://gohugo.io/hosting-and-deployment/hosting-on-github>
@@ -181,3 +184,7 @@ this out and troubleshoot:
 
 
 Thanks for reading!
+
+[^1]: Thankfully my old-school wrapping at 80 characters didn't mess everything
+up. Hugo seems to put newlines where they make the most sense for the content.
+[^2]: Blaming the theme when I don't have it set up right, ha!
