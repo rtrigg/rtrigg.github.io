@@ -13,6 +13,5 @@ mkdir -p .github/workflows/
 
 vim .github/workflows/gh-pages.yml
 
-git add -u
+git add .github/workflows/gh-pages.yml
 git commit -m "Add github action to build site"
-
