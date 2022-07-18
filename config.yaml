@@ -8,8 +8,8 @@ Params:
   publishdir: 'public'
 
 [indexes]
-  category = 'categories'
-  tag = 'tags'
+  category: 'categories'
+  tag: 'tags'
 
 [params]
-  paginate = true
+  paginate: true
