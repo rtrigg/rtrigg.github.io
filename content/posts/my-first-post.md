@@ -66,7 +66,6 @@ which prints out:
 >2. Perhaps you want to add some content. You can add single files
 >   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
 >3. Start the built-in live server via "hugo server".
-```
 
 Oh, but that makes a new config.toml, when I was using a config.yaml...
 
@@ -125,12 +124,12 @@ main branch, and put that generated html, css, etc into the gh-pages branch,
 where it will get published, and I'll have a blog on github now!
 
 In practice, it looks like the generic github page:
-![Where is Hugo?!](/nohugo.png)
+![Where is Hugo?!](static/nohugo.png)
 
 Oh wait, github is using my `main` branch instead of the `gh-pages` branch
 which was automagically created through the github action.
 
-![I'd prefer IaC for this, but oh well...](/default_branch.png)
+![I'd prefer IaC for this, but oh well...](static/default_branch.png)
 
 So now it will work, right? Nope! I still have `draft: true` up top. Well, if
 this is the big moment of truth (or rather, the big moment of `draft: false`),
