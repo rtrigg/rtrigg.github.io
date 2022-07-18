@@ -38,4 +38,47 @@ git commit -m "Add README and config.yaml"
 git push
 ```
 
+Oh but I forgot to make a new hugo site:
+```
+hugo new site . --force
+```
+which prints out:
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the "hugo new theme <THEMENAME>" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
+3. Start the built-in live server via "hugo server".
+
+
+```
+
+Oh, but that makes a new config.toml, when I was using a config.yaml...
+
+```
+> cat config.toml 
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+```
+
+Maybe I can set similar variables things from config.toml in my config.yaml things will work.
+
+```
+> cat config.yaml 
+Params:
+  baseURL: https://rtrigg.github.io
+  languageCode: 'en-us'
+  title: 'My Tech Blog'
+> rm config.toml
+```
+
+I scroll up, didn't I need a theme? Hmm, this one seems okay... I can always change it later
+
+cd themes
+git submodule add https://github.com/azmelanar/hugo-theme-pixyll
+
 
