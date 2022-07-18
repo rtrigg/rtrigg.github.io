@@ -71,7 +71,7 @@ which prints out:
 Oh, but that makes a new config.toml, when I was using a config.yaml...
 
 ```
-> cat config.toml
+cat config.toml
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
@@ -138,6 +138,17 @@ I should probably clean this post up a bit before I go live. I feel pretty good
 about this, it was an hour and a half from inspiration to final post, and I may
 have even learned a few things along the way.
 
+**EDIT:** Well my theme isn't showing up! I had to add it to my config:
+```
+cat config.yaml 
+Params:
+  baseURL: https://rtrigg.github.io
+  languageCode: 'en-us'
+  title: 'My Tech Blog'
+  themesDir: 'themes'
+  theme: 'hugo-theme-pixyll'
+```
+
 In no particular order, the websites I poked around at while trying to figure
 this out and troubleshoot:
 
@@ -154,5 +165,6 @@ this out and troubleshoot:
 <https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch>
 <https://gohugo.io/getting-started/usage/>
 <https://www.markdownguide.org/cheat-sheet>
+<https://gohugobrasil.netlify.app/themes/installing-and-using-themes/>
 
 Thanks for reading!

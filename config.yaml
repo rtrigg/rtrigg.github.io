@@ -2,3 +2,5 @@ Params:
   baseURL: https://rtrigg.github.io
   languageCode: 'en-us'
   title: 'My Tech Blog'
+  themesDir: 'themes'
+  theme: 'hugo-theme-pixyll'
