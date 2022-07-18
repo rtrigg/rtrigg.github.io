@@ -123,13 +123,11 @@ In theory the github action should build the hugo page from the content in my
 main branch, and put that generated html, css, etc into the gh-pages branch,
 where it will get published, and I'll have a blog on github now!
 
-In practice, it looks like the generic github page:
-![Where is Hugo?!](static/nohugo.png)
+In practice, it looks like the generic github page, and I just see what was in
+the README.md, which is a link to the site.
 
 Oh wait, github is using my `main` branch instead of the `gh-pages` branch
 which was automagically created through the github action.
-
-![I prefer IaC for this, but oh well...](static/default_branch.png)
 
 So now it will work, right? Nope! I still have `draft: true` up top. Well, if
 this is the big moment of truth (or rather, the big moment of `draft: false`),
@@ -157,7 +155,7 @@ first to see how things looked!). It turns out that I got mixed up and had
 conflated the "default branch" with the publishing branch, or [publishing
 source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 Once I got that sorted, everything was good to go! I think I jinxed myself by
-talking earlier about how this only took "an hour and a half," but I'm happy that everything seems to be working now, except for images, which I'm revisiting.
+talking earlier about how this only took "an hour and a half," but I'm happy that everything seems to be working now, except for images, which I will revisit.
 
 
 In no particular order, the websites I poked around at while trying to figure
