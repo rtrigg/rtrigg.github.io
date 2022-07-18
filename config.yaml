@@ -3,4 +3,13 @@ Params:
   languageCode: 'en-us'
   title: 'My Tech Blog'
   themesDir: 'themes'
-  theme: 'hugo-theme-pixyll'
+  theme: 'pixyll'
+  contentdir: 'content'
+  publishdir: 'public'
+
+[indexes]
+  category = 'categories'
+  tag = 'tags'
+
+[params]
+  paginate = true
