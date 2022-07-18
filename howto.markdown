@@ -21,11 +21,21 @@ git commit -m "Add github action to build site"
 git push --set-upstream origin main
 ```
 
-Add some content:
 
+Create a config.yaml (or toml or json, see
+https://gohugo.io/getting-started/configuration/) containing the following:
 ```
-echo "# start of wqrtrigg.github.io" >> README.md
+Params:
+  baseURL: https://rtrigg.github.io
+```
+
+Add some content:
+```
+echo "# start of rtrigg.github.io" >> README.md
 git add README.md
-git commit -m "Add README"
+git add config.yaml
+git commit -m "Add README and config.yaml"
 git push
 ```
+
+
