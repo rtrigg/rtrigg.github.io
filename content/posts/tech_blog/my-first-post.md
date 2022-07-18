@@ -124,12 +124,12 @@ main branch, and put that generated html, css, etc into the gh-pages branch,
 where it will get published, and I'll have a blog on github now!
 
 In practice, it looks like the generic github page:
-![Where is Hugo?!](posts/static/nohugo.png)
+![Where is Hugo?!](/posts/tech_blog/nohugo.png)
 
 Oh wait, github is using my `main` branch instead of the `gh-pages` branch
 which was automagically created through the github action.
 
-![I'd prefer IaC for this, but oh well...](posts/static/default_branch.png)
+![I prefer IaC for this, but oh well...](/posts/tech_blog/default_branch.png)
 
 So now it will work, right? Nope! I still have `draft: true` up top. Well, if
 this is the big moment of truth (or rather, the big moment of `draft: false`),
@@ -151,7 +151,13 @@ Params:
 Later: I ran into a lot of other troubles, and decided to switch to a newer
 theme. The Pixyll theme I had picked, except for the README, hadn't been
 updated in years. Searching for "hugo theme 2022" was the way to go, leading me
-to a [new theme](https://github.com/adityatelange/hugo-PaperMod).
+to a [new theme](https://github.com/adityatelange/hugo-PaperMod). I had thinks
+working locally (by using `hugo server`, which I should have been using at
+first to see how things looked!). It turns out that I got mixed up and had
+conflated the "default branch" with the publishing branch, or [publishing
+source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+Once I got that sorted, everything was good to go! I think I jinxed myself by
+talking earlier about how this only took "an hour and a half," but I'm happy that everything seems to be working now, except for images, which I'm revisiting.
 
 
 In no particular order, the websites I poked around at while trying to figure
