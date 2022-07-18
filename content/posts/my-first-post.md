@@ -1,5 +1,5 @@
 ---
-title: "My First Post"
+title: "Setting up Hugo Blog on GitHub"
 date: 2022-07-17T21:48:45-04:00
 draft: false
 ---
@@ -150,7 +150,7 @@ Params:
 
 Later: I ran into a lot of other troubles, and decided to switch to a newer
 theme. The Pixyll theme I had picked, except for the README, hadn't been
-updated in years. Searching for `hugo theme 2022` was the way to go, leading me
+updated in years. Searching for "hugo theme 2022" was the way to go, leading me
 to a [new theme](https://github.com/adityatelange/hugo-PaperMod).
 
 
