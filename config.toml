@@ -1,0 +1,15 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+baseURL = "https://rtrigg.github.io"
+canonifyurls = true
+title = "My Tech Blog"
+theme = "pixyll"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  paginate = true
+
