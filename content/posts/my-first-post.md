@@ -172,6 +172,8 @@ this out and troubleshoot:
 - <https://www.markdownguide.org/cheat-sheet>
 - <https://gohugobrasil.netlify.app/themes/installing-and-using-themes/>
 - <https://github.com/adityatelange/hugo-PaperMod>
+- <https://github.com/adityatelange/hugo-PaperMod/wiki/>
+- <https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>
 
 
 Thanks for reading!
