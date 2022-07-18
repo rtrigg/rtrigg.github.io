@@ -148,6 +148,12 @@ Params:
   theme: 'hugo-theme-pixyll'
 ```
 
+Later: I ran into a lot of other troubles, and decided to switch to a newer
+theme. The Pixyll theme I had picked, except for the README, hadn't been
+updated in years. Searching for `hugo theme 2022` was the way to go, leading me
+to a [new theme](https://github.com/adityatelange/hugo-PaperMod).
+
+
 In no particular order, the websites I poked around at while trying to figure
 this out and troubleshoot:
 
@@ -165,5 +171,7 @@ this out and troubleshoot:
 - <https://gohugo.io/getting-started/usage/>
 - <https://www.markdownguide.org/cheat-sheet>
 - <https://gohugobrasil.netlify.app/themes/installing-and-using-themes/>
+- <https://github.com/adityatelange/hugo-PaperMod>
+
 
 Thanks for reading!
