@@ -151,19 +151,19 @@ Params:
 In no particular order, the websites I poked around at while trying to figure
 this out and troubleshoot:
 
-<https://github.com/gohugoio/hugo>
-<https://gohugo.io/hosting-and-deployment/hosting-on-github>
-<https://github.com/marketplace/actions/hugo-setup>
-<https://github.com/gohugoio/hugo/issues/4825>
-<https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/>
-<https://github.com/gohugoio/hugo/issues/2864>
-<https://themes.gohugo.io>
-<https://themes.gohugo.io/themes/hugo-theme-pixyll/>
-<https://www.andrewhoog.com/post/git-submodule-for-hugo-themes/>
-<https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/>
-<https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch>
-<https://gohugo.io/getting-started/usage/>
-<https://www.markdownguide.org/cheat-sheet>
-<https://gohugobrasil.netlify.app/themes/installing-and-using-themes/>
+- <https://github.com/gohugoio/hugo>
+- <https://gohugo.io/hosting-and-deployment/hosting-on-github>
+- <https://github.com/marketplace/actions/hugo-setup>
+- <https://github.com/gohugoio/hugo/issues/4825>
+- <https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/>
+- <https://github.com/gohugoio/hugo/issues/2864>
+- <https://themes.gohugo.io>
+- <https://themes.gohugo.io/themes/hugo-theme-pixyll/>
+- <https://www.andrewhoog.com/post/git-submodule-for-hugo-themes/>
+- <https://tutorialedge.net/golang/hugo/hugo-adding-images-to-posts/>
+- <https://docs.github.com/en/enterprise-cloud@latest/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch>
+- <https://gohugo.io/getting-started/usage/>
+- <https://www.markdownguide.org/cheat-sheet>
+- <https://gohugobrasil.netlify.app/themes/installing-and-using-themes/>
 
 Thanks for reading!
