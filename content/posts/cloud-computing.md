@@ -2,7 +2,7 @@
 title: "Cloud Computing 101"
 author: Robert Trigg
 date: 2022-07-13T17:48:45-04:00
-draft: true
+draft: false
 ---
 
 Trying to convince management it's *finally* time to migrate or expand into the
@@ -31,7 +31,7 @@ As a quick refresher, or by way of introduction of this is all new to you, the
 advantages of the cloud include:
 
 - **Increased Agility**: This is *such* an overused buzzword, but it's true!
-  Cloud technolgies let companies experiment more, give new technologies a
+  Cloud technologies let companies experiment more, give new technologies a
   whirl, and generally develop more faster. Imagine: quicker standing-up of
   computer, network, and storage resources---no more waiting 6+ months for
   procurement and approval processes!
