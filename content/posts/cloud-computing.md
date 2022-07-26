@@ -73,7 +73,7 @@ that people don't even notice it any more, but it's pretty cool when you stop
 and think about it.
 
 Usually SaaS has a subscription price; when it's free there's usually some
-other benefit to the provider, whether it's just just keeping you in their
+other benefit to the provider, whether it's just keeping you in their
 ecosystem or monetizing your data through advertising metrics or whatnot. If
 you want to build a SaaS offering for your customers, you don't *have* to use
 the cloud, but you better have a bunch of geographically dispersed servers and
@@ -89,13 +89,13 @@ underlying infrastructure. Think: I just want somewhere to run this code so my
 users can run my app!
 
 
-### Infrastructure-as-a-Service (PaaS)
+### Infrastructure-as-a-Service (IaaS)
 Closer to the metal! Though likely just virtual hardware,
 Infrastructure-as-a-Service, or IaaS ("eye-aze," I guess?) lets you provision
 custom storage, network, and compute resources. You can set up and configure an
-environment from the operating system all the way up to whatever app or service
-you are trying to create. These days, the line between PaaS and IaaS can be a
-little blurry, depending on the provider.
+environment from the hardware to the operating system all the way up to
+whatever app or service you are trying to create. These days, the line between
+PaaS and IaaS can be a little blurry, depending on the provider.
 
 Example Time: Let's say you want to set up some overnight builds and testing,
 and the free options on GitHub or whatever just aren't cutting it. Maybe your
