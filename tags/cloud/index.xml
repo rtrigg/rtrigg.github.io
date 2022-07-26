@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cloud on Tech Blog</title>
+    <link>https://rtrigg.github.io/tags/cloud/</link>
+    <description>Recent content in cloud on Tech Blog</description>
+    <image>
+      <url>https://rtrigg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://rtrigg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 25 Jul 2022 23:48:45 -0400</lastBuildDate><atom:link href="https://rtrigg.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Computing 101</title>
+      <link>https://rtrigg.github.io/posts/cloud-computing/</link>
+      <pubDate>Mon, 25 Jul 2022 23:48:45 -0400</pubDate>
+      
+      <guid>https://rtrigg.github.io/posts/cloud-computing/</guid>
+      <description>Trying to convince management it&amp;rsquo;s finally time to migrate or expand into the cloud? Perhaps you are new to cloud computing, and trying to learn more. Or maybe, you&amp;rsquo;re just wondering how well the NIST definition of cloud computing fits in 2022? It&amp;rsquo;s been over ten years since the words:
+Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.</description>
+    </item>
+    
+  </channel>
+</rss>
