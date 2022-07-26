@@ -1,7 +1,7 @@
 ---
 title: "Cloud Computing 101"
 author: Robert Trigg
-date: 2022-07-13T17:48:45-04:00
+date: 2022-07-25T23:48:45-04:00
 draft: false
 ---
 
