@@ -9,7 +9,17 @@
       <link>https://rtrigg.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Jul 2022 23:48:45 -0400</lastBuildDate><atom:link href="https://rtrigg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Aug 2022 17:21:15 -0400</lastBuildDate><atom:link href="https://rtrigg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Virtualization and the Cloud</title>
+      <link>https://rtrigg.github.io/posts/virtualization/</link>
+      <pubDate>Mon, 01 Aug 2022 17:21:15 -0400</pubDate>
+      
+      <guid>https://rtrigg.github.io/posts/virtualization/</guid>
+      <description>Virtualization allows for the creation of &amp;ldquo;virtual&amp;rdquo; computers and devices on one server. It is an effective strategy for partitioning and managing compute, storage, and network resources. Virtualization is not a new concept, but its popularity has waxed and waned over the decades.
+Back in the days of mainframes, time-sharing was invented to allow multiple users to run code on one mainframe, but it had its limitations, so virtualization was created1.</description>
+    </item>
+    
     <item>
       <title>Cloud Computing 101</title>
       <link>https://rtrigg.github.io/posts/cloud-computing/</link>
