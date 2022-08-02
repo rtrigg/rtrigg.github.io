@@ -2,7 +2,7 @@
 title: "Intro to Virtualization and the Cloud"
 date: 2022-08-01T17:21:15-04:00
 tags: ['cloud']
-draft: true
+draft: false
 ---
 
 Virtualization allows for the creation of "virtual" computers and devices on
