@@ -12,10 +12,10 @@
     <lastBuildDate>Sun, 14 Aug 2022 15:18:12 -0400</lastBuildDate><atom:link href="https://rtrigg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Economics of Cloud Computing</title>
-      <link>https://rtrigg.github.io/posts/cloud_economics/</link>
+      <link>https://rtrigg.github.io/posts/cloud-economics/</link>
       <pubDate>Sun, 14 Aug 2022 15:18:12 -0400</pubDate>
       
-      <guid>https://rtrigg.github.io/posts/cloud_economics/</guid>
+      <guid>https://rtrigg.github.io/posts/cloud-economics/</guid>
       <description>The budget items and calculations for a on-premises data center are dramatically different when compared to those of cloud computing. Many of the costs of traditional on-premises infrastructure are taken care of by the cloud provider. Your organization is essentially renting the staff, compute hardware, and other infrastructure from the provider, cutting down on capital expenses, though gaining new operational expenses, that is, your cloud bill. You are also gaining the ability to scale the data center as needed.</description>
     </item>
     
