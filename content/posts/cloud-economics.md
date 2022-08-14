@@ -2,6 +2,7 @@
 title: "Economics of Cloud Computing"
 date: 2022-08-14T15:18:12-04:00
 draft: false
+tags: ['cloud', 'economics', 'migration']
 ---
 
 The budget items and calculations for a on-premises data center are
